@@ -1,24 +1,20 @@
 export const keywordControl = new Map<string, string>([
+  ['exportamos', 'export'],
+  ['enlazamos', 'import'],
+  ['retornamos', 'return'],
+  ['Si', 'if'],
+  ['y', 'if'],
+  ['pero', 'if'],
+  ['tipo_de', 'typeof'],
+
   ['capturar', 'catch'],
-  ['caso', 'case'],
-  ['con', 'with'],
-  ['continuar', 'continue'],
   ['crear', 'new'],
   ['desde', 'from'],
   ['elegir', 'switch'],
   ['esperar', 'await'],
-  ['exportar', 'export'],
-  ['hacer', 'do'],
-  ['importar', 'import'],
   ['mientras', 'while'],
-  ['para', 'for'],
-  ['retornar', 'return'],
-  ['sino', 'else'],
-  // ['osi', 'else if'],
-  ['si', 'if'],
   ['constructor', 'constructor'],
   ['eliminar', 'delete'],
-  ['extiende', 'extends'],
   ['finalmente', 'finally'],
   ['instanciaDe', 'instanceof'],
   ['intentar', 'try'],
@@ -27,8 +23,6 @@ export const keywordControl = new Map<string, string>([
   ['romper', 'break'],
   ['simbolo', 'symbol'],
   ['subcad', 'substr'],
-  ['tipoDe', 'typeof'],
-  ['vacio', 'void'],
   ['producir', 'yield'],
 ])
 
@@ -48,6 +42,8 @@ export const variableLanguage = new Map<string, string>([
 ])
 
 export const storageType = new Map<string, string>([
+  ['procedimiento', 'function'],
+
   ['asincrono', 'async'],
   ['clase', 'class'],
   ['const', 'const'],
